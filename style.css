@@ -1,12 +1,70 @@
-body{
+body {
     font-family: 'Noto Sans', sans-serif;
+    margin: 0;
 }
-.n{
+
+.n {
     color: crimson;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-h1{
+
+h1 {
     font-size: 50px;
+}
+
+section {
+    display: flex;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.top_left {
+    padding-top: 15px;
+    width: 10%;
+    height: 50%;
+}
+
+.top_left img {
+
+    width: 70%;
+    height: 600px;
+}
+
+.top {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+div p {
+    text-align: justify;
+}
+
+.top img {
+    width: 95%;
+    height: 600px;
+
+}
+
+.profile {
+
+    border-image: linear-gradient(to bottom, orange, #bc121200)1;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 10px;
+
+    width: 10%;
+}
+
+.linkedin {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(tomato, #e8a54e);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
