@@ -73,15 +73,16 @@ div p {
 
 .about {
 
-    background-color: rgb(209, 208, 208);
-    margin: 100px 200px;
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 160px 200px;
     border-radius: 20px;
     padding: 15px 10px 0px;
-    height: 450px;
+    height: 550px;
 
 }
 
 #about_me {
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -99,4 +100,147 @@ div p {
 
 .under div {
     padding: 0 30px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.two {
+    margin-top: 150px;
+    background-image: url(image/sub_image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+
+}
+
+.two top {
+    border-image: none;
+}
+
+.m {
+    color: orangered;
+}
+
+
+
+
+
+.four {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background-color: rgb(227, 207, 169);
+    border-radius: 5px;
+    height: 550px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.sub_four_1 {
+    text-align: center;
+    color: rgb(64, 64, 124);
+
+}
+
+.sub_four_2 {
+    display: flex;
+
+}
+
+.sub_four_bottom {
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(92, 96, 208), rgb(220, 209, 209));
+    margin: 10px;
+    padding: 30px;
+    text-align: justify;
+}
+
+
+
+.five {
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.sub_five_1 {
+    text-align: center;
+}
+
+.sub_five_2 {
+    display: flex;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.sub_sub_five_2 {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.sub_five_3 {
+    text-align: center;
+}
+
+.six {
+    background-color: #e2b0b0;
+    margin: 100px;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px;
+}
+
+.six_sub1 {
+    width: 40%;
+    padding: 50px;
+}
+
+.six_sub2 {
+    width: 60%;
+    padding: 50px;
+}
+
+.name {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.email {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.message {
+    height: 100px;
+    width: 50%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+:placeholder-shown {
+    text-align: start;
+    padding-left: 20px;
 }
