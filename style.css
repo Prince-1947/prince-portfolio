@@ -15,7 +15,7 @@ h1 {
     font-size: 50px;
 }
 
-section {
+.one {
     display: flex;
     padding: 5px;
     background-color: antiquewhite;
@@ -67,4 +67,36 @@ div p {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+
+
+.about {
+
+    background-color: rgb(209, 208, 208);
+    margin: 100px 200px;
+    border-radius: 20px;
+    padding: 15px 10px 0px;
+    height: 450px;
+
+}
+
+#about_me {
+    text-align: center;
+}
+
+.middle p {
+    padding: 0 50px;
+    text-align: center;
+
+}
+
+.under {
+    display: inline-flex;
+    text-align: center;
+    padding-left: 120px;
+}
+
+.under div {
+    padding: 0 30px 10px;
 }
